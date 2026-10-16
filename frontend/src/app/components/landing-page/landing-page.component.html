@@ -1,0 +1,395 @@
+<div class="landing-page">
+    <div class="header">
+        <header class="main-header">
+            <div class="header-bar">
+            <button class="icon-btn icon-btn--brand menu-btn" type="button" aria-label="Abrir Menú">
+                <svg class="icon icon--lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+
+            <a class="brand" href="#">
+                <span class="brand__mark">🍒</span>
+                <span class="brand__name">CHERRIE</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Secciones">
+                <a href="#categorias">Categorías</a>
+                <a href="#featured-products">Nuevo</a>
+                <a href="#ofertas">Ofertas</a>
+                <a href="#instagram">Instagram</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn" type="button" aria-label="Buscar producto">
+                    <svg class="icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+                <button class="icon-btn icon-btn--brand cart-btn" type="button" aria-label="Carrito de compras">
+                    <svg class="icon icon--lg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="badge badge--accent">2</span>
+                </button>
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="hero">
+        <section class="hero-card">
+            <div class="hero-card__media">
+                <div class="discount-tag">
+                    <span>🔥</span> -40% OFF
+                </div>
+                <img alt="Modelo Blusa Floral CHERRIE" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1400&q=80">
+                <div class="hero-card__overlay"></div>
+            </div>
+            <div class="hero-card__content">
+                <span class="eyebrow">Edición Limitada</span>
+                <h1>
+                    Nueva Colección 2026:<br>
+                    <span>Elegancia &amp; Confort</span>
+                </h1>
+                <div class="countdown">
+                    <span class="countdown__label">⏳ Termina en:</span>
+                    <span class="countdown__time">{{ hours }}h : {{ minutes }}m : {{ seconds }}s</span>
+                </div>
+                <a class="btn btn--accent btn--block" href="#featured-products">
+                    <span>Añadir al Carrito / Comprar Ahora</span>
+                    <svg class="icon icon--sm" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <div class="pills">
+            <div class="pill pill--brand">🔥 2x1 en Blusas &amp; Tops</div>
+            <div class="pill">✨ Envío Gratis +Q300</div>
+            <div class="pill pill--accent">🏷️ Outlet hasta -50%</div>
+        </div>
+    </div>
+
+    <div class="categorias" id="categorias">
+        <div class="section-head">
+            <h2>Categorías Destacadas</h2>
+            <a href="#">Ver todas →</a>
+        </div>
+        <div class="categories-scroll">
+            <a class="category" href="#">
+                <div class="category__avatar category__avatar--active">
+                    <img alt="Vestidos" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=200&q=80">
+                </div>
+                <span>Vestidos</span>
+            </a>
+            <a class="category" href="#">
+                <div class="category__avatar">
+                    <img alt="Blusas" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=200&q=80">
+                </div>
+                <span>Blusas</span>
+            </a>
+            <a class="category" href="#">
+                <div class="category__avatar">
+                    <img alt="Pantalones" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=200&q=80">
+                </div>
+                <span>Pantalones</span>
+            </a>
+            <a class="category" href="#">
+                <div class="category__avatar">
+                    <img alt="Zapatos" src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=200&q=80">
+                </div>
+                <span>Zapatos</span>
+            </a>
+            <a class="category" href="#">
+                <div class="category__avatar">
+                    <img alt="Accesorios" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=200&q=80">
+                </div>
+                <span>Accesorios</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="nuevos-post" id="featured-products">
+        <div class="section-head">
+            <div>
+                <span class="kicker">Tendencia 2026</span>
+                <h2>Nuevas Llegadas</h2>
+            </div>
+            <span class="hint">Desliza →</span>
+        </div>
+        <div class="product-carousel">
+            <article class="product-card">
+                <div class="product-card__media">
+                    <button class="wish-btn wish-btn--on" type="button" aria-label="Favorito">
+                        <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg>
+                    </button>
+                    <span class="chip chip--dark">MÁS VENDIDO</span>
+                    <img alt="Blusa Floral Hibiscus Cherrie" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=600&q=80">
+                </div>
+                <div class="product-card__body">
+                    <div class="swatches">
+                        <span class="swatch swatch--primary swatch--selected"></span>
+                        <span class="swatch swatch--light"></span>
+                        <span class="swatch swatch--warm"></span>
+                    </div>
+                    <h3>Blusa Floral Hibiscus</h3>
+                    <p>Corte en V holgado, seda ligera</p>
+                    <div class="price">
+                        <strong>Q249.00</strong>
+                        <s>Q350.00</s>
+                    </div>
+                    <button class="btn btn--accent btn--block" type="button">
+                        <svg class="icon icon--sm" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span>Añadir al Carrito</span>
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-card__media">
+                    <button class="wish-btn" type="button" aria-label="Favorito">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                    <span class="chip chip--light">NUEVO</span>
+                    <img alt="Vestido Editorial Gala" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80">
+                </div>
+                <div class="product-card__body">
+                    <div class="swatches">
+                        <span class="swatch swatch--primary swatch--selected"></span>
+                        <span class="swatch swatch--ink"></span>
+                    </div>
+                    <h3>Vestido Editorial Gala</h3>
+                    <p>Silueta entallada y fresca</p>
+                    <div class="price">
+                        <strong>Q389.00</strong>
+                        <s>Q450.00</s>
+                    </div>
+                    <button class="btn btn--accent btn--block" type="button">
+                        <svg class="icon icon--sm" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span>Añadir al Carrito</span>
+                    </button>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="ofertas" id="ofertas">
+        <section class="promo-banner">
+            <span class="eyebrow">Exclusividad CHERRIE</span>
+            <h2>Estilo editorial para tu día a día</h2>
+            <p>Prendas diseñadas para empoderar tu presencia con la delicadeza del cerezo y la vanguardia de la moda latina.</p>
+            <button class="btn btn--accent" type="button">Explorar Lookbook →</button>
+        </section>
+
+        <section class="best-sellers">
+            <div class="section-head">
+                <div>
+                    <span class="kicker">Favoritos de la temporada</span>
+                    <h2>Más Vendidos</h2>
+                </div>
+                <span class="pill-count">Top 4</span>
+            </div>
+            <div class="best-grid">
+                <div class="mini-card">
+                    <div class="mini-card__media">
+                        <img alt="Blusa Carmín Sombra" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=400&q=80">
+                        <button class="wish-btn wish-btn--sm" type="button" aria-label="Favorito">🤍</button>
+                    </div>
+                    <div class="stars">★★★★★ <span>(48)</span></div>
+                    <h4>Blusa Carmín Sombra</h4>
+                    <div class="mini-price">Q199.00</div>
+                    <button class="btn btn--accent btn--block btn--compact" type="button">+ Añadir</button>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__media">
+                        <img alt="Falda Plisada Rosa" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=400&q=80">
+                        <button class="wish-btn wish-btn--sm" type="button" aria-label="Favorito">🤍</button>
+                    </div>
+                    <div class="stars">★★★★★ <span>(32)</span></div>
+                    <h4>Falda Plisada Rosa</h4>
+                    <div class="mini-price">Q220.00</div>
+                    <button class="btn btn--accent btn--block btn--compact" type="button">+ Añadir</button>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__media">
+                        <img alt="Pantalón Flare Lino" src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=400&q=80">
+                        <button class="wish-btn wish-btn--sm" type="button" aria-label="Favorito">🤍</button>
+                    </div>
+                    <div class="stars">★★★★★ <span>(60)</span></div>
+                    <h4>Pantalón Flare Lino</h4>
+                    <div class="mini-price">Q275.00</div>
+                    <button class="btn btn--accent btn--block btn--compact" type="button">+ Añadir</button>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__media">
+                        <img alt="Cardigan Soft Beige" src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=400&q=80">
+                        <button class="wish-btn wish-btn--sm" type="button" aria-label="Favorito">🤍</button>
+                    </div>
+                    <div class="stars">★★★★★ <span>(27)</span></div>
+                    <h4>Cardigan Soft Beige</h4>
+                    <div class="mini-price">Q290.00</div>
+                    <button class="btn btn--accent btn--block btn--compact" type="button">+ Añadir</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="flujo-trabajo">
+        <div class="trust-grid">
+            <div class="trust-card">
+                <div class="trust-card__icon">🚚</div>
+                <div>
+                    <h5>Envío Rápido</h5>
+                    <p>En 24-48 horas</p>
+                </div>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card__icon">🔒</div>
+                <div>
+                    <h5>Pago Seguro</h5>
+                    <p>Contra entrega o POS</p>
+                </div>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card__icon">🔄</div>
+                <div>
+                    <h5>Cambios Fáciles</h5>
+                    <p>30 días de garantía</p>
+                </div>
+            </div>
+            <div class="trust-card">
+                <div class="trust-card__icon">💬</div>
+                <div>
+                    <h5>WhatsApp 24/7</h5>
+                    <p>Atención inmediata</p>
+                </div>
+            </div>
+        </div>
+
+        <article class="review">
+            <div class="review__person">
+                <img alt="Clienta Sofía Morales" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=120&q=80">
+                <div>
+                    <h4>Sofía Morales R.</h4>
+                    <div class="stars">★★★★★ <span class="verified">Compradora Verificada</span></div>
+                </div>
+            </div>
+            <p>“La blusa de flores de CHERRIE es aún más hermosa en persona. La tela es súper fresca y la entrega en Ciudad de Guatemala fue al día siguiente. ¡100% recomendada!”</p>
+        </article>
+    </div>
+
+    <div class="instagram" id="instagram">
+        <div class="instagram__intro">
+            <h3>Síguenos en Instagram</h3>
+            <p>Inspírate con nuestra comunidad @cherrieshop</p>
+        </div>
+        <div class="ig-grid">
+            <img alt="Look Cherrie 1" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=400&q=80">
+            <img alt="Look Cherrie 2" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=400&q=80">
+            <img alt="Look Cherrie 3" src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=400&q=80">
+        </div>
+        <a class="btn btn--outline btn--block" href="#">📸 Ver galería @cherrieshop</a>
+
+        <section class="newsletter">
+            <span class="newsletter__emoji">🍒</span>
+            <h3>Únete al Cherrie Club</h3>
+            <p>Obtén 10% de descuento en tu primer pedido y acceso a preventas exclusivas.</p>
+            <form (submit)="onNewsletterSubmit($event)">
+                <input type="email" placeholder="Ingresa tu correo electrónico..." required>
+                <button class="btn btn--accent btn--block" type="submit">Suscribirme Ahora</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="footer">
+        <footer class="site-footer">
+            <div class="footer-grid">
+            <div class="site-footer__brand">
+                <div>CHERRIE</div>
+                <span>Shop Online Guatemala</span>
+            </div>
+
+            <details>
+                <summary>Categorías &amp; Tienda <span>▾</span></summary>
+                <div>
+                    <a href="#">Vestidos Casuales y de Fiesta</a>
+                    <a href="#">Blusas y Camisas Florales</a>
+                    <a href="#">Pantalones y Jeans</a>
+                    <a href="#">Liquidación Final</a>
+                </div>
+            </details>
+            <details>
+                <summary>Atención al Cliente <span>▾</span></summary>
+                <div>
+                    <a href="#">Rastreo de Pedido</a>
+                    <a href="#">Políticas de Envío &amp; Tiempos</a>
+                    <a href="#">Guía de Tallas Oficial</a>
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+            </details>
+            <details>
+                <summary>Garantía &amp; Legal <span>▾</span></summary>
+                <div>
+                    <a href="#">Políticas de Devolución</a>
+                    <a href="#">Términos del Servicio</a>
+                    <a href="#">Aviso de Privacidad</a>
+                </div>
+            </details>
+            </div>
+
+            <div class="payments">
+                <p>Aceptamos pagos seguros:</p>
+                <div>
+                    <span>Visa</span>
+                    <span>Mastercard</span>
+                    <span>Transferencia</span>
+                    <span>Efectivo</span>
+                </div>
+                <p class="copy">© 2026 CHERRIE Shop Online. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <nav class="bottom-nav" aria-label="Navegación principal">
+            <a class="bottom-nav__item is-active" href="#">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                </svg>
+                <span>Inicio</span>
+            </a>
+            <a class="bottom-nav__item" href="#categorias">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span>Categorías</span>
+            </a>
+            <a class="bottom-nav__item" href="#">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="badge badge--brand">3</span>
+                <span>Favoritos</span>
+            </a>
+            <a class="bottom-nav__item" href="#">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="badge badge--accent">2</span>
+                <span>Carrito</span>
+            </a>
+            <a class="bottom-nav__item" href="#">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span>Mi Perfil</span>
+            </a>
+        </nav>
+    </div>
+</div>
